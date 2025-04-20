@@ -1,3 +1,3 @@
 # TeamWork
 this is my first Repository
-Auther Gulzar Hussain
+Author Gulzar Hussain
