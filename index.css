@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Optional background image:
+    background-image: url(deadpool.png);
+    background-size: cover;
+    background-position: center;
+    */
+}
+
+nav {
+    background-color: white;
+    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+    cursor: pointer;
+}
+
+nav a {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
